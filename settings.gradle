@@ -6,5 +6,5 @@ dependencyResolutionManagement {
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
-rootProject.name = "jitpack_composed_ui"
+rootProject.name = "jetpack_composed_ui"
 include ':app'
