@@ -27,6 +27,7 @@ import com.jiwon.jetpack_composed_ui.sample.chat.Message
 import com.jiwon.jetpack_composed_ui.sample.chat.MessageCard
 import com.jiwon.jetpack_composed_ui.sample.counter.Counter
 import com.jiwon.jetpack_composed_ui.sample.counter.TestCounter
+import com.jiwon.jetpack_composed_ui.sample.photograph.PhotoBook
 import com.jiwon.jetpack_composed_ui.sample.photograph.PhotographCard
 import com.jiwon.jetpack_composed_ui.sample.ui.theme.Jetpack_composed_uiTheme
 
@@ -34,7 +35,7 @@ class SampleActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            PhotographCard()
+            PhotoBook()
         }
     }
 }
@@ -43,6 +44,6 @@ class SampleActivity : ComponentActivity() {
 @Composable
 fun DefaultPreview() {
     Jetpack_composed_uiTheme {
-        PhotographCard()
+        PhotoBook()
     }
 }

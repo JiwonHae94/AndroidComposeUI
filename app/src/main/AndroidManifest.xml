@@ -3,7 +3,7 @@
     package="com.jiwon.jetpack_composed_ui">
 
     <uses-feature android:name="android.hardware.camera" />
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
@@ -14,17 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.jetpack_composed_ui">
         <activity
-            android:name=".sample.SampleActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:label="@string/title_activity_sample"
             android:theme="@style/Theme.jetpack_composed_ui.NoActionBar" />
         <activity
-            android:name=".MainActivity2"
-            android:exported="true"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.jetpack_composed_ui.NoActionBar" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".sample.SampleActivity"
             android:exported="true"
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.jetpack_composed_ui.NoActionBar">
